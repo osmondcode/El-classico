@@ -1,9 +1,6 @@
 const PreLoader = ({ darkMode }) => {
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center gap-4 fade-away bg-[--light] text-[--dark] fixed top-0 left-0 z-40">
-      {/* <h1 className="logo-font sm:text-[40px] text-[35px] font-semibold">
-        el-classico
-      </h1> */}
+    <div className="w-full h-screen flex flex-col items-center justify-center fade-away bg-[--light] text-[--dark] fixed top-0 left-0 z-40">
       <svg
         fill="var(--dark)"
         height="75px"
@@ -38,9 +35,12 @@ const PreLoader = ({ darkMode }) => {
           </g>{" "}
         </g>
       </svg>
+      <h2 className="slim-font text-[--third] uppercase translate-y-[-17px] font-medium text-[18px]">
+        el-clasico
+      </h2>
 
       <div className="w-[300px] h-[6px] bg-[#999] rounded-[30px]">
-        <div className="w-0 h-[6px] bg-[--dark] rounded-[30px] pre-loading"></div>
+        <div className="w-0 h-[6px] bg-[--third] rounded-[30px] pre-loading"></div>
       </div>
     </div>
   );
