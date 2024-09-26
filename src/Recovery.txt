@@ -1,0 +1,620 @@
+import React, { useRef } from 'react'
+import { useGLTF } from '@react-three/drei'
+
+export function Chiron(props) {
+  const { nodes, materials } = useGLTF('/ds_e-tense.glb')
+  return (
+    <group {...props} dispose={null}>
+      <group scale={0.01}>
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFR_tire_tires_LOD2_Material007_0.geometry}
+          material={materials['Material.007']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFR_rims_LOD2_Material010_0.geometry}
+          material={materials['Material.010']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFR_motion_rims_LOD2_Material013_0.geometry}
+          material={materials['Material.013']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFR_motion_details_normal_LOD2_Material007_0.geometry}
+          material={materials['Material.007']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFR_motion_details_LOD2_Material007_0.geometry}
+          material={materials['Material.007']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={
+            nodes.wheelFR_emissive_mesh_brakedisk_emissive_mesh_brakedisk_6d623a7_Material011_0
+              .geometry
+          }
+          material={materials['Material.011']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFR_details_LOD2_Material014_0.geometry}
+          material={materials['Material.014']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFR_caliper_calipers_LOD6_Material012_0.geometry}
+          material={materials['Material.012']}
+          position={[-79.918, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_tire_tires_LOD2_Material007_0.geometry}
+          material={materials['Material.007']}
+          position={[187.095, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_rims_LOD2_Material010_0.geometry}
+          material={materials['Material.010']}
+          position={[187.095, -26.874, 164.243]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_motion_rims_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[187.095, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_motion_details_normal_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[187.095, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_motion_details_LOD2__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[187.095, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={
+            nodes.wheelFL_emissive_mesh_brakedisk_emissive_mesh_brakedisk_37d1039_Material011_0
+              .geometry
+          }
+          material={materials['Material.011']}
+          position={[187.095, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_details_normal_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[187.095, -26.874, 164.243]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_details_LOD2_Material014_0.geometry}
+          material={materials['Material.014']}
+          position={[187.095, -26.874, 164.243]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelFL_caliper_calipers_LOD6_Material012_0.geometry}
+          material={materials['Material.012']}
+          position={[187.095, -26.874, 164.245]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_tire_tires_LOD2_Material007_0.geometry}
+          material={materials['Material.007']}
+          position={[-75.476, -26.251, -264.954]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_rims_LOD2_Material010_0.geometry}
+          material={materials['Material.010']}
+          position={[-75.476, -26.744, -264.957]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_motion_rims_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[-75.476, -26.716, -264.938]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_motion_details_normal_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[-75.476, -26.716, -264.938]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_motion_details_LOD2__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[-75.476, -26.716, -264.938]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={
+            nodes.wheelBR_emissive_mesh_brakedisk_emissive_mesh_brakedisk_935131c_Material011_0
+              .geometry
+          }
+          material={materials['Material.011']}
+          position={[-75.476, -26.251, -264.954]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_details_normal_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[-75.476, -26.744, -264.957]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_details_LOD2_Material014_0.geometry}
+          material={materials['Material.014']}
+          position={[-75.476, -26.744, -264.957]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBR_caliper_calipers_LOD6_Material012_0.geometry}
+          material={materials['Material.012']}
+          position={[-75.476, -26.347, -265.253]}
+          rotation={[2.703, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_tire_tires_LOD2_Material007_0.geometry}
+          material={materials['Material.007']}
+          position={[182.653, -26.251, -264.954]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_rims_LOD2_Material010_0.geometry}
+          material={materials['Material.010']}
+          position={[182.653, -26.696, -264.957]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_motion_rims_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[182.653, -26.714, -264.966]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_motion_details_normal_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[182.653, -26.714, -264.966]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_motion_details_LOD2__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[182.653, -26.714, -264.966]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={
+            nodes.wheelBL_emissive_mesh_brakedisk_emissive_mesh_brakedisk_42f474a_Material011_0
+              .geometry
+          }
+          material={materials['Material.011']}
+          position={[182.653, -26.251, -264.954]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_details_normal_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[182.653, -26.696, -264.957]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_details_LOD2_Material014_0.geometry}
+          material={materials['Material.014']}
+          position={[182.653, -26.696, -264.957]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.wheelBL_caliper_calipers_LOD6_Material012_0.geometry}
+          material={materials['Material.012']}
+          position={[182.653, -26.347, -265.253]}
+          rotation={[2.704, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.volante__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[109.193, 52.437, -0.107]}
+          rotation={[1.883, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.finestrini_1_Material002_0.geometry}
+          material={materials['Material.002']}
+          position={[-13.059, 81.579, -45.344]}
+          rotation={[Math.PI / 2, 0, 0]}
+          scale={1.545}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_trunk_60_details_normal_LOD2__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[-16.613, 19.165, -280.096]}
+          rotation={[Math.PI, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_trunk_60_details_LOD2001_Material001_0.geometry}
+          material={materials['Material.001']}
+          position={[-16.613, 19.165, -280.096]}
+          rotation={[Math.PI, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_trunk_60_details_LOD2_Material004_0.geometry}
+          material={materials['Material.004']}
+          position={[-16.613, 19.165, -280.096]}
+          rotation={[Math.PI, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_trunk_60_carpaint_custom02_LOD2_Material001_0.geometry}
+          material={materials['Material.001']}
+          position={[-16.613, 19.165, -280.096]}
+          rotation={[Math.PI, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_hood_80_details_normal_LOD2__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[-12.339, 78.065, 303.259]}
+          rotation={[0, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_hood_80_details_LOD2_Material003_0.geometry}
+          material={materials['Material.003']}
+          position={[-12.339, 78.065, 303.259]}
+          rotation={[0, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_hood_80_carpaint_LOD2_Material001_0.geometry}
+          material={materials['Material.001']}
+          position={[-12.339, 78.065, 303.259]}
+          rotation={[0, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_hood_80_carpaint_custom01_LOD2_Material001_0.geometry}
+          material={materials['Material.001']}
+          position={[-12.339, 78.065, 303.259]}
+          rotation={[0, 0, -Math.PI / 2]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_door_R_50_details_LOD2_Material003_0.geometry}
+          material={materials['Material.003']}
+          position={[-91.93, 26.576, 71.179]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_door_R_50_carpaint_LOD2_Material001_0.geometry}
+          material={materials['Material.001']}
+          position={[-91.93, 26.576, 71.179]}
+          rotation={[Math.PI, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_door_L_50_details_LOD2_Material003_0.geometry}
+          material={materials['Material.003']}
+          position={[199.458, 25.207, 71.179]}
+          rotation={[0, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_door_L_50_carpaint_LOD2_Material001_0.geometry}
+          material={materials['Material.001']}
+          position={[199.458, 25.207, 71.179]}
+          rotation={[0, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_bumper_F_5_LOD_tiled_carbon_LOD16_Material005_0.geometry}
+          material={materials['Material.005']}
+          position={[-93.276, -58.436, 221.651]}
+          rotation={[Math.PI / 2, 0, -Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_bumper_F_5_LOD_LOD16__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[-93.276, -58.436, 221.651]}
+          rotation={[Math.PI / 2, 0, -Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_bumper_B_5_tiled_carbon_LOD2_Material008_0.geometry}
+          material={materials['Material.008']}
+          position={[54.938, -51.802, -328.97]}
+          rotation={[Math.PI / 2, 0, 0]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.detach_bumper_B_5_details_normal_LOD2_Material004_0.geometry}
+          material={materials['Material.004']}
+          position={[54.938, -51.802, -328.97]}
+          rotation={[Math.PI / 2, 0, 0]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_underside_LOD2__0.geometry}
+          material={materials.wheelFL_motion_details_LOD2__0}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_tiled_carbon_LOD2_Material003_0.geometry}
+          material={materials['Material.003']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_emissive_ID_thirdlight_LOD2_Material004_0.geometry}
+          material={materials['Material.004']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_emissive_ID_rear_LOD2001_Material004_0.geometry}
+          material={materials['Material.004']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_emissive_ID_rear_LOD2_Material004_0.geometry}
+          material={materials['Material.004']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_details_normal_LOD2004_Material006_0.geometry}
+          material={materials['Material.006']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_details_normal_LOD2003_Material006_0.geometry}
+          material={materials['Material.006']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_details_normal_LOD2002_Material009_0.geometry}
+          material={materials['Material.009']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_details_normal_LOD2001_Material009_0.geometry}
+          material={materials['Material.009']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_details_normal_LOD2_Material005_0.geometry}
+          material={materials['Material.005']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_details_LOD2_Material003_0.geometry}
+          material={materials['Material.003']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.chassis_carpaint_LOD2_Material001_0.geometry}
+          material={materials['Material.001']}
+          position={[53.589, -79.801, -49.25]}
+          rotation={[Math.PI / 2, 0, Math.PI]}
+          scale={7.312}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.finestrini_1001_Material015_0.geometry}
+          material={materials['Material.015']}
+          position={[-13.059, 81.579, -45.344]}
+          rotation={[Math.PI / 2, 0, 0]}
+          scale={1.545}
+        />
+      </group>
+    </group>
+  )
+}
+
+useGLTF.preload('/ds_e-tense.glb')

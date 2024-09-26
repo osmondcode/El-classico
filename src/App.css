@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  outline: none;
+}
+:root {
+  --light: #eff1ed;
+  --dark: #161a1d;
+  --third: #166534;
+}
+.logo-font {
+  font-family: "Zen Tokyo Zoo", sans-serif;
+}
+.slim-font {
+  font-family: "Oswald", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.jura-font {
+  font-family: "Jura", Arial, Helvetica, sans-serif;
+}
+.pre-loading {
+  animation: load 1 4s;
+}
+@keyframes load {
+  0% {
+    width: 10%;
+  }
+  68% {
+    width: 68%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.fade-away {
+  animation: fade 1 1s;
+  animation-delay: 4s;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.spinner {
+  animation: spin_fade infinite 5s;
+}
+@keyframes spin_fade {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.slick-slide > {
+  margin: 0 12px;
+}
+.clip-path {
+  clip-path: polygon(0 0, 100% 0, 93% 100%, 7% 100%);
+}
+.heptagon {
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
+.image-loading1 {
+  animation: roll infinite ease-in-out 5s;
+}
+@keyframes roll {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  50% {
+    transform: rotateZ(360deg);
+  }
+}
